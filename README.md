@@ -17,7 +17,7 @@ mkdir -p confs/{telegraf,telegraf/telegraf.d}
 
 3. Generate configuration files
 ```bash
-docker run --rm telegraf telegraf config > ./confs/telegraf/telegraf.con
+docker run --rm telegraf telegraf config > ./confs/telegraf/telegraf.conf
 ```
 
 4. Set up Telegraf configuration as commented before
